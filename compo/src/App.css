@@ -1,0 +1,82 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.centered-element {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  max-width: 400px;
+  width: 100%;
+};
+
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(0, 217, 255); /* Light cyan background */
+  margin: 0;
+  padding: 0;
+}
+
+#quote-box {
+  max-width: 600px; /* Limit the width of the quote box */
+  margin: 100px auto; /* Center the box */
+  padding: 20px;
+  background: linear-gradient(135deg, #ffccbc, #ffab91); /* Gradient background */
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2); /* Deeper shadow for depth */
+  text-align: center; /* Center text */
+}
+
+#text {
+  font-size: 28px; /* Larger font size for the quote */
+  font-weight: bold; /* Bold text */
+  color: #d32f2f; /* Dark red color for the quote */
+  margin-bottom: 10px; /* Space below the quote */
+}
+
+#author {
+  font-size: 22px; /* Slightly smaller font size for the author */
+  color: #616161; /* Dark gray color for the author */
+  margin-bottom: 20px; /* Space below the author */
+}
+
+button {
+  margin-right: 10px;
+  background-color: #1976d2; /* Blue color for the button */
+  color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 12px 24px; /* Padding for the button */
+    font-size: 18px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+  background-color: #1565c0; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.tweet {
+  margin-top: 20px; /* Space above the tweet link */
+}
+
+a {
+  display: inline-block; /* Make the link behave like a button */
+  margin-top: 20px; /* Space above the link */
+  text-decoration: none; /* Remove underline */
+  color: #ff5722; /* Orange color for the link */
+  font-size: 18px; /* Font size */
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+  color: #e64a19; /* Darker shade on hover */
+}
